@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品详情页</title>
+    <link href="css/jquery-ui.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/shopspage.css" rel="stylesheet">
+</head>
+<body>
+<div class="header">
+    <div class="top">
+        <div class="inner">
+            <div class="area">送至：北京<i><a href="#">◇</a></i></div>
+            <!--顶nav-->
+            <ul>
+                <li><a href="#" class="login">你好，请登录</a><a href="#" class="register">免费注册</a></li>
+                <li class="line"></li>
+                <li><a href="#">我的订单</a></li>
+                <li class="line"></li>
+                <li><a href="#" class="active">我的京东<i>◇</i></a></li>
+                <li class="line"></li>
+                <li><a href="#">京东会员</a></li>
+                <li class="line"></li>
+                <li><a href="#">企业采购</a></li>
+                <li class="line"></li>
+                <li><a href="#" class="active"><span></span>手机京东<i>◇</i></a></li>
+                <li class="line"></li>
+                <li><a href="#" class="active">关注京东<i>◇</i></a></li>
+                <li class="line"></li>
+                <li><a href="#" class="active">客户服务<i>◇</i></a></li>
+                <li class="line"></li>
+                <li><a href="#" class="active">网站导航<i>◇</i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="mid inner clearfix">
+        <div class="logo"><a href="index.html"><img src="images/logo-201305.png"></a></div>
+        <!--搜索-->
+        <div class="form">
+            <form>
+                <input type="text" placeholder="卡通手机壳" class="search_txt" title="请输入关键字：手机,电脑,智能,男,女"><input type="submit" class="sub" value="搜索">
+            </form>
+            <!--搜索标签-->
+            <div class="tags">
+                <a href="#" class="active">七夕礼品</a>
+                <a href="#">消暑神器</a>
+                <a href="#">农用物资</a>
+                <a href="#">鲜花99元</a>
+                <a href="#">电影京券</a>
+                <a href="#">防晒喷雾</a>
+                <a href="#">永生花</a>
+                <a href="#">小米电脑</a>
+                <a href="#">thinkpad</a>
+            </div>
+        </div>
+        <!--购物车-->
+        <div class="buy">
+            <a href="#">我的购物车</a>
+            <i>></i>
+            <div class="number">10</div>
+        </div>
+    </div>
+    <!--nav-->
+    <div class="nav inner clearfix">
+        <div class="menu_title">全部商品分类</div>
+        <ul>
+            <li><a href="#">服装城</a></li>
+            <li><a href="#">美妆馆</a></li>
+            <li><a href="#">京东超市</a></li>
+            <li><a href="#">生鲜</a></li>
+            <li><a href="#">全球购</a></li>
+            <li><a href="#">闪购</a></li>
+            <li><a href="#">团购</a></li>
+            <li><a href="#">拍卖</a></li>
+            <li><a href="#">金融</a></li>
+        </ul>
+    </div>
+</div>
+<!--商品面包屑导航-->
+<div class="shops_nav">
+    <ul class="inner clearfix">
+        <li><a href="#">电脑、办公</a> &nbsp;> &nbsp;</li>
+        <li><a href="#">电脑整机</a> &nbsp;> &nbsp;</li>
+        <li><a href="#">笔记本</a> &nbsp;> &nbsp;</li>
+        <li><a href="#"> 微软（Microsoft）</a> &nbsp;> &nbsp;</li>
+        <li>微软Surface Laptop</li>
+    </ul>
+</div>
+<!--商品头部区域-->
+<div class="shops_area clearfix">
+    <div class="inner clearfix">
+        <div class="sa_left">
+            <!--放大镜区域-->
+            <div class="sa_l_pic">
+                <div class="sa_l_p_p">
+                    <img class="small_pic" src="images/s1.jpg">
+                    <span class="magnifier"></span>
+                </div>
+                <div class="preview">
+                    <img class="big_pic" src="images/s1_big.jpg">
+                </div>
+            </div>
+            <!--放大镜下方图片选区-->
+            <div class="sa_pic_list_box_big">
+                <div class="sa_pic_list_box">
+                    <ul class="sa_pic_list clearfix">
+                        <li class="ac"><img src="images/s1.jpg"></li>
+                        <li><img src="images/s2.jpg"></li>
+                        <li><img src="images/s3.jpg"></li>
+                        <li><img src="images/s4.jpg"></li>
+                        <li><img src="images/s5.jpg"></li>
+                        <li><img src="images/s6.jpg"></li>
+                        <li><img src="images/s7.jpg"></li>
+                    </ul>
+                </div>
+                <i class="prevBtn"></i>
+                <i class="nextBtn"></i>
+            </div>
+        </div>
+        <div class="sa_right">
+            <h3>微软（Microsoft）Surface Laptop超轻薄触控笔记本（13.5英寸 i5-7200U <span class="sa_title_cc">8G 256GSSD</span> Windows10S）亮铂金</h3>
+            <div class="sa_r_area">
+                <div class="sa_r_price_area">
+                    <div class="sa_r_price_msg">
+                        <div class="fl jdj">京&nbsp;&nbsp;东&nbsp;&nbsp;价</div>
+                        <div class="fl jdprice"><span>¥</span><span class="sa_price">9888.00</span></div>
+                        <a href="#">降价通知</a>
+                    </div>
+                    <div class="sa_r_price_ad">
+                        <div class="fl jdj">促&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;销</div>
+                        <div class="fl warm">满额返券</div>
+                        <p class="fl">7.1-7.27期间购买电脑办公品类指定商品，即赠键鼠神券！</p>
+                        <a href="#">&nbsp;&nbsp;&nbsp;详情 >> </a>
+                    </div>
+                </div>
+                <!--右侧评价-->
+                <div class="discuss_num">
+                    <p>累计评价</p>
+                    <span>100+</span>
+                </div>
+                <!--配送区域选择-->
+                <div class="sa_send clearfix">
+                    <div class="fl jdj">配&nbsp;&nbsp;送&nbsp;&nbsp;至</div>
+                    <div class="fl address_choice">
+                        <span>北京朝阳区三环以内</span><i class="icon"></i>
+                        <div class="address_list" id="address_list">
+                            <h3>选择新地址</h3>
+                            <ul class="clearfix">
+                                <li class="ac">北京</li>
+                                <li>朝阳区</li>
+                                <li>三环以内</li>
+                            </ul>
+                            <div class="address_cont" id="address_cont">
+                                <div class="address_province ac clearfix">
+                                    <dl>
+                                        <dd><a href="#">北京</a></dd>
+                                        <dd><a href="#">上海</a></dd>
+                                        <dd><a href="#">天津</a></dd>
+                                        <dd><a href="#">重庆</a></dd>
+                                        <dd><a href="#">河北</a></dd>
+                                        <dd><a href="#">山西</a></dd>
+                                        <dd><a href="#">河南</a></dd>
+                                        <dd><a href="#">辽宁</a></dd>
+                                        <dd><a href="#">吉林</a></dd>
+                                        <dd><a href="#">黑龙江</a></dd>
+                                        <dd><a href="#">内蒙古</a></dd>
+                                        <dd><a href="#">江苏</a></dd>
+                                        <dd><a href="#">山东</a></dd>
+                                        <dd><a href="#">安徽</a></dd>
+                                        <dd><a href="#">浙江</a></dd>
+                                        <dd><a href="#">福建</a></dd>
+                                        <dd><a href="#">湖北</a></dd>
+                                        <dd><a href="#">湖南</a></dd>
+                                        <dd><a href="#">广东</a></dd>
+                                        <dd><a href="#">广西</a></dd>
+                                        <dd><a href="#">江西</a></dd>
+                                        <dd><a href="#">四川</a></dd>
+                                        <dd><a href="#">海南</a></dd>
+                                        <dd><a href="#">贵州</a></dd>
+                                        <dd><a href="#">云南</a></dd>
+                                        <dd><a href="#">西藏</a></dd>
+                                        <dd><a href="#">陕西</a></dd>
+                                        <dd><a href="#">甘肃</a></dd>
+                                        <dd><a href="#">青海</a></dd>
+                                        <dd><a href="#">宁夏</a></dd>
+                                        <dd><a href="#">新疆</a></dd>
+                                        <dd><a href="#">台湾</a></dd>
+                                        <dd><a href="#">港澳</a></dd>
+                                        <dd><a href="#">钓鱼岛</a></dd>
+                                        <dd><a href="#">海外</a></dd>
+                                    </dl>
+                                </div>
+                                <div class="address_city clearfix">
+                                    <dl>
+                                        <dd><a href="#">朝阳区</a></dd>
+                                        <dd><a href="#">海淀区</a></dd>
+                                        <dd><a href="#">西城区</a></dd>
+                                        <dd><a href="#">东城区</a></dd>
+                                        <dd><a href="#">崇文区</a></dd>
+                                        <dd><a href="#">宣武区</a></dd>
+                                        <dd><a href="#">丰台区</a></dd>
+                                        <dd><a href="#">石景山区</a></dd>
+                                        <dd><a href="#">门头沟</a></dd>
+                                        <dd><a href="#">房山区</a></dd>
+                                        <dd><a href="#">通州区</a></dd>
+                                        <dd><a href="#">大兴区</a></dd>
+                                        <dd><a href="#">顺义区</a></dd>
+                                        <dd><a href="#">怀柔区</a></dd>
+                                        <dd><a href="#">密云区</a></dd>
+                                        <dd><a href="#">昌平区</a></dd>
+                                        <dd><a href="#">平谷区</a></dd>
+                                        <dd><a href="#">延庆县</a></dd>
+                                    </dl>
+                                </div>
+                                <div class="address_county clearfix">
+                                    <dl>
+                                        <dd><a href="#">四环到五环之间</a></dd>
+                                        <dd><a href="#">管庄</a></dd>
+                                        <dd><a href="#">北苑</a></dd>
+                                        <dd><a href="#">定福庄</a></dd>
+                                        <dd><a href="#">三环以内</a></dd>
+                                        <dd><a href="#">五环到六环之间</a></dd>
+                                        <dd><a href="#">三环到四环之间</a></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fl sa_send_msg"><strong>有货&nbsp;</strong>支持<a href="#">99元免基础运费(20kg内)</a><a href="#">货到付款</a><a href="#">京准达</a><a href="#">211限时达</a><a href="#">自提</a></div><br>
+                    <p>由<span>&nbsp;京东&nbsp;</span>发货，微软官方自营旗舰店提供售后服务。23:00前下单,预计<b>明天(07月09日)</b>送达</p>
+                </div>
+                <div class="sa_weight clearfix">
+                    <div class="fl jdj">重&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;量</div>
+                    <div class="fl">2.325kg</div>
+                </div>
+            </div>
+            <!--商品版本选择-->
+            <div class="sa_version">
+                <div class="sa_version_choice clearfix">
+                    <div class="fl jdj">选择颜色</div>
+                    <div class="fl square sa_goods ver_price" data-price="7688.00"><img src="images/s1.jpg"><span>【银色】i5 <b class="sa_cc">4G 128GSSD</b> 金属触控</span></div>
+                    <div class="fl square ac sa_goods ver_price" data-price="9888.00"><img src="images/s1.jpg"><span>【银色】i5 <b class="sa_cc">8G 256GSSD</b> 金属触控</span></div>
+                </div>
+                <!--商品增值服务选择-->
+                <div class="sa_vas clearfix">
+                    <div class="fl jdj">增值保障</div>
+                    <div class="fl square ver_price" data-price="59.00"><span>服务送鼠标¥59</span></div>
+                    <div class="fl square ver_price" data-price="299.00"><span>延迟保1年¥299</span></div>
+                    <div class="fl square ver_price" data-price="589.00"><span>全保修2年¥589</span></div>
+                </div>
+            </div>
+            <!--加入购物车区域-->
+            <div class="join_car clearfix" id="join_car">
+                <div class="shops_num">
+                    <input type="text" value="1">
+                    <span class="plus"  onselectstart="return false;">+</span>
+                    <span class="sub"  onselectstart="return false;">-</span>
+                </div>
+                <div id="join_btn" class="join_btn">加入购物车</div>
+            </div>
+            <div class="sa_prompt">
+                <p>温馨提示· 支持7天无理由退货</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--商品中间推荐区-->
+<div class="recommend_area inner">
+    <div class="recommend_nav">
+        <ul class="clearfix">
+            <li class="ac first">人气配件</li>
+            <li>鼠标</li>
+            <li>键盘</li>
+            <li>双肩包</li>
+            <li>显示器</li>
+            <li>移动硬盘</li>
+        </ul>
+    </div>
+    <div class="recommend_cont clearfix">
+        <div class="rc clear">
+            <div class="rl ver_msg" id="ver_msg">
+                <div class="ver_pic rl" id="ver_pic" data-price="9888" ><img src="images/s1.jpg"></div>
+                <div class="plusicon rl"></div>
+                <a href="#">微软（Microsoft）Surface（13.5英寸 i5-7200U <span class="sa_title_cc">8G 256GSSD</span> Windows10S）亮铂金</a>
+            </div>
+            <div id="recommend_cont_list" class="clearfix rl">
+                <ul class="recommend_list ac">
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss01.jpg">
+                        </a>
+                        <p><a href="#" title="达尔优（dare-u）S100高端电竞鼠标 有线">达尔优（dare-u）S100高端电竞鼠标 有线</a></p>
+                        <input type="checkbox" data-price="139"><span>¥139.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss02.jpg">
+                        </a>
+                        <p><a href="#" title="多彩（Delux）T9Plus 单手机械键盘凯华青轴RGB背光">多彩（Delux）T9Plus 单手机械键盘凯华青轴RGB背光</a></p>
+                        <input type="checkbox" data-price="239"><span>¥239.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss03.jpg">
+                        </a>
+                        <p><a href="#" title="小米生态链企业90分多功能电脑双肩包 商务户外休闲笔记本电脑背包14英寸">小米生态链企业90分多功能电脑双肩包 商务户外休闲笔记本电脑背包14英寸</a></p>
+                        <input type="checkbox" data-price="249"><span>¥249.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss04.jpg">
+                        </a>
+                        <p><a href="#" title="三星（SAMSUNG）S24D360HL 23.6英寸PLS臻彩广视角电脑显示器（HDMI接口）">三星（SAMSUNG）S24D360HL 23.6英寸PLS臻彩广视角电脑显示器（HDMI接口）</a></p>
+                        <input type="checkbox" data-price="899"><span>¥899.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss05.jpg">
+                        </a>
+                        <p><a href="#" title="西部数据（WD） Elements 新元素系列 2.5英寸 USB3.0 移动硬盘 1TB（WDBUZG0010BBK）">西部数据（WD） Elements 新元素系列 2.5英寸 USB3.0 移动硬盘 1TB（WDBUZG0010BBK）</a></p>
+                        <input type="checkbox" data-price="399"><span>¥399.00</span>
+                    </li>
+                </ul>
+                <ul class="recommend_list">
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss01.jpg">
+                        </a>
+                        <p><a href="#" title="达尔优（dare-u）S100高端电竞鼠标 有线">达尔优（dare-u）S100高端电竞鼠标 有线</a></p>
+                        <input type="checkbox" data-price="139"><span>¥139.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss06.jpg">
+                        </a>
+                        <p><a href="#" title="罗技（Logitech）M185 无线鼠标 黑色灰边">罗技（Logitech）M185 无线鼠标 黑色灰边</a></p>
+                        <input type="checkbox" data-price="59"><span>¥59.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss07.jpg">
+                        </a>
+                        <p><a href="#" title="雷柏（Rapoo） M218 无线鼠标 办公鼠标 笔记本鼠标 黑色">雷柏（Rapoo） M218 无线鼠标 办公鼠标 笔记本鼠标 黑色</a></p>
+                        <input type="checkbox" data-price="28"><span>¥28.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss08.jpg">
+                        </a>
+                        <p><a href="#" title="联想（lenovo）M120 大红点有线光学鼠标 黑色 有线鼠标 ">联想（lenovo）M120 大红点有线光学鼠标 黑色 有线鼠标 </a></p>
+                        <input type="checkbox" data-price="29"><span>¥29.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss09.jpg">
+                        </a>
+                        <p><a href="#" title="罗技（Logitech）M275 无线鼠标 黑色 ">罗技（Logitech）M275 无线鼠标 黑色 </a></p>
+                        <input type="checkbox" data-price="89"><span>¥89.00</span>
+                    </li>
+                </ul>
+                <ul class="recommend_list">
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss02.jpg">
+                        </a>
+                        <p><a href="#" title="多彩（Delux）T9Plus 单手机械键盘凯华青轴RGB背光">多彩（Delux）T9Plus 单手机械键盘凯华青轴RGB背光</a></p>
+                        <input type="checkbox" data-price="239"><span>¥239.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss10.jpg">
+                        </a>
+                        <p><a href="#" title="罗技（Logitech）MK275 无线光电键鼠套装 无线鼠标无线键盘套装">罗技（Logitech）MK275 无线光电键鼠套装 无线鼠标无线键盘套装</a></p>
+                        <input type="checkbox" data-price="116"><span>¥116.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss11.jpg">
+                        </a>
+                        <p><a href="#" title="现代（HYUNDAI）HY-MA75 有线USB接口键鼠套装 黑色">现代（HYUNDAI）HY-MA75 有线USB接口键鼠套装 黑色</a></p>
+                        <input type="checkbox" data-price="30"><span>¥30.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss12.jpg">
+                        </a>
+                        <p><a href="#" title="罗技（Logitech）K120键盘">罗技（Logitech）K120键盘</a></p>
+                        <input type="checkbox" data-price="49"><span>¥49.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss13.jpg">
+                        </a>
+                        <p><a href="#" title="优派（ViewSonic） CU1250键鼠套装 双USB接口 黑色">优派（ViewSonic） CU1250键鼠套装 双USB接口 黑色</a></p>
+                        <input type="checkbox" data-price="30"><span>¥30.00</span>
+                    </li>
+                </ul>
+                <ul class="recommend_list">
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss03.jpg">
+                        </a>
+                        <p><a href="#" title="小米生态链企业90分多功能电脑双肩包 商务户外休闲笔记本电脑背包14英寸">小米生态链企业90分多功能电脑双肩包 商务户外休闲笔记本电脑背包14英寸</a></p>
+                        <input type="checkbox" data-price="249"><span>¥249.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss14.jpg">
+                        </a>
+                        <p><a href="#" title="新秀丽（Samsonite）双肩包背包 商务休闲书包笔记本包 男女款苹果电脑包 15.6英寸 BU1*09001 黑色">新秀丽（Samsonite）双肩包背包 商务休闲书包笔记本包 男女款苹果电脑包 15.6英寸 BU1*09001 黑色</a></p>
+                        <input type="checkbox" data-price="319"><span>¥319.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss15.jpg">
+                        </a>
+                        <p><a href="#" title="奥维尼 非凡系列电脑包 14.5/15.6英寸防水笔记本内胆包 联想华硕苹果MacBook戴尔惠普 黑色">奥维尼 非凡系列电脑包 14.5/15.6英寸防水笔记本内胆包 联想华硕苹果MacBook戴尔惠普 黑色</a></p>
+                        <input type="checkbox" data-price="60"><span>¥60.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss16.jpg">
+                        </a>
+                        <p><a href="#" title="魅族（MEIZU）休闲旅行双肩包 灰色">魅族（MEIZU）休闲旅行双肩包 灰色</a></p>
+                        <input type="checkbox" data-price="199"><span>¥199.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss17.jpg">
+                        </a>
+                        <p><a href="#" title="戴尔 DELL14/15英寸通用双肩背包">戴尔 DELL14/15英寸通用双肩背包</a></p>
+                        <input type="checkbox" data-price="69"><span>¥69.00</span>
+                    </li>
+                </ul>
+                <ul class="recommend_list">
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss04.jpg">
+                        </a>
+                        <p><a href="#" title="三星（SAMSUNG）S24D360HL 23.6英寸PLS臻彩广视角电脑显示器（HDMI接口）">三星（SAMSUNG）S24D360HL 23.6英寸PLS臻彩广视角电脑显示器（HDMI接口）</a></p>
+                        <input type="checkbox" data-price="899"><span>¥899.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss18.jpg">
+                        </a>
+                        <p><a href="#" title="AOC 23.6英寸 焕新二代PLS屏 1.6mm窄边框P2491VWHE/BW 广视角 爱眼不闪屏显示器（HDMI版）">AOC 23.6英寸 焕新二代PLS屏 1.6mm窄边框P2491VWHE/BW 广视角 爱眼不闪屏显示器（HDMI版）</a></p>
+                        <input type="checkbox" data-price="888"><span>¥888.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss19.jpg">
+                        </a>
+                        <p><a href="#" title="AOC M2060SWD 19.53英寸MVA广视角全高清LED背光液晶显示器（黑色）">AOC M2060SWD 19.53英寸MVA广视角全高清LED背光液晶显示器（黑色）</a></p>
+                        <input type="checkbox" data-price="549"><span>¥549.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss20.jpg">
+                        </a>
+                        <p><a href="#" title="三星（SAMSUNG）S22B310B 21.5英寸LED背光液晶显示器">三星（SAMSUNG）S22B310B 21.5英寸LED背光液晶显示器</a></p>
+                        <input type="checkbox" data-price="739"><span>¥739.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss21.jpg">
+                        </a>
+                        <p><a href="#" title="三星（SAMSUNG）C27F390FHC 27英寸1800R震撼曲率爱眼低蓝光曲面显示器">三星（SAMSUNG）C27F390FHC 27英寸1800R震撼曲率爱眼低蓝光曲面显示器</a></p>
+                        <input type="checkbox" data-price="1399"><span>¥1399.00</span>
+                    </li>
+                </ul>
+                <ul class="recommend_list">
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss05.jpg">
+                        </a>
+                        <p><a href="#" title="西部数据（WD） Elements 新元素系列 2.5英寸 USB3.0 移动硬盘 1TB（WDBUZG0010BBK）">西部数据（WD） Elements 新元素系列 2.5英寸 USB3.0 移动硬盘 1TB（WDBUZG0010BBK）</a></p>
+                        <input type="checkbox" data-price="399"><span>¥399.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss22.jpg">
+                        </a>
+                        <p><a href="#" title="希捷（seagate）Expansion 新睿翼1TB 2.5英寸 USB3.0 移动硬盘 (STEA1000400)">希捷（seagate）Expansion 新睿翼1TB 2.5英寸 USB3.0 移动硬盘 (STEA1000400)</a></p>
+                        <input type="checkbox" data-price="399"><span>¥399.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss23.jpg">
+                        </a>
+                        <p><a href="#" title="耐泊尔（NAIPOER）N-B1 高端2.5英寸移动硬盘包 防水抗震/保护套/便携式多功能数码收纳包【经典黑】">耐泊尔（NAIPOER）N-B1 高端2.5英寸移动硬盘包 防水抗震/保护套/便携式多功能数码收纳包【经典黑】</a></p>
+                        <input type="checkbox" data-price="40"><span>¥40.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss24.jpg">
+                        </a>
+                        <p><a href="#" title="东芝（TOSHIBA）新黑甲虫系列 1TB 2.5英寸 USB3.0移动硬盘">东芝（TOSHIBA）新黑甲虫系列 1TB 2.5英寸 USB3.0移动硬盘</a></p>
+                        <input type="checkbox" data-price="379"><span>¥379.00</span>
+                    </li>
+                    <li>
+                        <a href="#" class="rl_pic">
+                            <img src="images/sss25.jpg">
+                        </a>
+                        <p><a href="#" title="联想（lenovo）F308 原装小黑1T移动硬盘 小巧轻薄 USB3.0高速传输">联想（lenovo）F308 原装小黑1T移动硬盘 小巧轻薄 USB3.0高速传输</a></p>
+                        <input type="checkbox" data-price="389"><span>¥389.00</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="eqs rl"></div>
+            <div class="recommend_total rl">
+                <p>已选择<span class="recommend_num" id="recommend_num">0</span>个配件</p>
+                <div>组合价<b>¥</b><span class="recommend_price" id="recommend_price">9888.00</span></div>
+                <div class="go_btn join_car_btn"><a href="#">立即购买</a></div>
+                <div class="get_more"><a href="#">配件选择中心</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="pa_other inner clearfix">
+    <!--商品左侧推荐-->
+    <div class="pad_ad">
+        <div>
+            <div class="pa_top clearfix">
+                <h3><a href="##">微软官方旗舰店</a></h3>
+                <i></i>
+            </div>
+        </div>
+        <div class="pad_ad_center">
+            <div><i class="first"></i>进店逛逛</div>
+            <div><i class="last"></i>关注店铺</div>
+        </div>
+        <div class="pad_top_title">
+            <h3>达人选购</h3>
+        </div>
+        <div class="pad_cont">
+            <div class="pad_list">
+                <a href="#" title="Apple MacBook Pro 13.3英寸笔记本电脑 银色(Core i5 处理器/8GB内存/128GB SSD闪存/Retina屏 MF839CH/A)">
+                    <img src="images/sss26.jpg" alt="Apple MacBook Pro 13.3英寸笔记本电脑 银色(Core i5 处理器/8GB内存/128GB SSD闪存/Retina屏 MF839CH/A)">
+                </a>
+                <p><a href="#" class="pad_title" title="Apple MacBook Pro 13.3英寸笔记本电脑 银色(Core i5 处理器/8GB内存/128GB SSD闪存/Retina屏 MF839CH/A)">Apple MacBook Pro 13.3英寸笔记本电脑 银色(Core i5 处理器/8GB内存/128GB SSD闪存/Retina屏 MF839CH/A)</a></p>
+                <p class="pad_price">
+                    ￥8688.00
+                </p>
+            </div>
+            <div class="pad_list">
+                <a href="#" title="戴尔DELL XPS13-9360-R1609 13.3英寸轻薄窄边框笔记本电脑(i5-7200U 8G 256GSSD FHD Win10)无忌银">
+                    <img src="images/sss27.jpg" alt="戴尔DELL XPS13-9360-R1609 13.3英寸轻薄窄边框笔记本电脑(i5-7200U 8G 256GSSD FHD Win10)无忌银">
+                </a>
+                <a href="#" class="pad_title" title="戴尔DELL XPS13-9360-R1609 13.3英寸轻薄窄边框笔记本电脑(i5-7200U 8G 256GSSD FHD Win10)无忌银">戴尔DELL XPS13-9360-R1609 13.3英寸轻薄窄边框笔记本电脑(i5-7200U 8G 256GSSD FHD Win10)无忌银</a>
+                <p class="pad_price">
+                    ￥7999.00
+                </p>
+            </div>
+            <div class="pad_list">
+                <a href="#" title="ThinkPad X1 Carbon 2017（20HRA007CD）14英寸轻薄笔记本电脑（i5-7200U 8G 256GSSD FHD Win10）">
+                    <img src="images/sss28.jpg" alt="ThinkPad X1 Carbon 2017（20HRA007CD）14英寸轻薄笔记本电脑（i5-7200U 8G 256GSSD FHD Win10）">
+                </a>
+                <a href="#" class="pad_title" title="ThinkPad X1 Carbon 2017（20HRA007CD）14英寸轻薄笔记本电脑（i5-7200U 8G 256GSSD FHD Win10）">ThinkPad X1 Carbon 2017（20HRA007CD）14英寸轻薄笔记本电脑（i5-7200U 8G 256GSSD FHD Win10）</a>
+                <p class="pad_price">
+                    ￥9999.00
+                </p>
+            </div>
+            <div class="pad_list">
+                <a href="#" title="Apple MacBook Air 13.3英寸笔记本电脑 银色(Core i5 处理器/8GB内存/256GB SSD闪存 MMGG2CH/A)">
+                    <img src="images/sss29.jpg" alt="Apple MacBook Air 13.3英寸笔记本电脑 银色(Core i5 处理器/8GB内存/256GB SSD闪存 MMGG2CH/A)">
+                </a>
+                <a href="#" class="pad_title" title="Apple MacBook Air 13.3英寸笔记本电脑 银色(Core i5 处理器/8GB内存/256GB SSD闪存 MMGG2CH/A)">Apple MacBook Air 13.3英寸笔记本电脑 银色(Core i5 处理器/8GB内存/256GB SSD闪存 MMGG2CH/A)</a>
+                <p class="pad_price">
+                    ￥7888.00
+                </p>
+            </div>
+            <div class="pad_list">
+                <a href="#" title="联想(Lenovo)小新潮7000 14英寸轻薄窄边框笔记本电脑(i5-7200U 8G 1T+128G PCIE 940MX 2G)花火银">
+                    <img src="images/sss30.jpg" alt="联想(Lenovo)小新潮7000 14英寸轻薄窄边框笔记本电脑(i5-7200U 8G 1T+128G PCIE 940MX 2G)花火银">
+                </a>
+                <a href="#" class="pad_title" title="联想(Lenovo)小新潮7000 14英寸轻薄窄边框笔记本电脑(i5-7200U 8G 1T+128G PCIE 940MX 2G)花火银">联想(Lenovo)小新潮7000 14英寸轻薄窄边框笔记本电脑(i5-7200U 8G 1T+128G PCIE 940MX 2G)花火银</a>
+                <p class="pad_price">
+                    ￥5599.00
+                </p>
+            </div>
+            <div class="pad_list">
+                <a href="#" title="戴尔DELL灵越燃7000 R1605S 14.0英寸轻薄窄边框笔记本电脑(i5-7200U 8G 256GSSD FHD Win10)银">
+                    <img src="images/sss31.jpg" alt="戴尔DELL灵越燃7000 R1605S 14.0英寸轻薄窄边框笔记本电脑(i5-7200U 8G 256GSSD FHD Win10)银">
+                </a>
+                <a href="#" class="pad_title" title="戴尔DELL灵越燃7000 R1605S 14.0英寸轻薄窄边框笔记本电脑(i5-7200U 8G 256GSSD FHD Win10)银">戴尔DELL灵越燃7000 R1605S 14.0英寸轻薄窄边框笔记本电脑(i5-7200U 8G 256GSSD FHD Win10)银</a>
+                <p class="pad_price">
+                    ￥5299.00
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--商品介绍页主体区域-->
+    <div class="p_shops_msg">
+        <!--商品介绍页选项卡-->
+        <div class="psm_nav clearfix">
+            <ul class="clearfix">
+                <li class="first ac">商品介绍</li>
+                <li>规格与包装</li>
+                <li>售后保障</li>
+                <li>商品评价 <span>(100+)</span></li>
+                <li>社区互动</li>
+            </ul>
+            <a href="#" class="join_car_btn">加入购物车</a>
+        </div>
+        <div class="psm_cont">
+            <!--商品介绍内容-->
+            <div class="shop_introduce ac">
+                <div class="brand_area clearfix">
+                    <div>品牌：
+                        <a href="#" class="brand">微软（Microsoft）</a>
+                    </div>
+                    <ul class="brand_parameter">
+                        <li>商品名称：微软Surface Laptop</li>
+                        <li>商品编号：4283651</li>
+                        <li>商品毛重：2.325kg</li>
+                        <li>商品产地：中国大陆</li>
+                        <li>系统：其他</li>
+                        <li>厚度：10.0mm—15.0mm</li>
+                        <li>内存容量：8G</li>
+                        <li>分辨率：超高清屏（2K/3k/4K)</li>
+                        <li>显卡型号：其他</li>
+                        <li>待机时长：9小时以上</li>
+                        <li>处理器：Intel i5低功耗版</li>
+                        <li>特性：窄边框，触控屏，背光键盘</li>
+                        <li>显卡类别：集成显卡</li>
+                        <li>裸机重量：1-1.5KG</li>
+                        <li>硬盘容量：256G固态</li>
+                        <li>显存容量：其他</li>
+                        <li>分类：轻薄本，常规笔记本</li>
+                        <li>屏幕尺寸：其他</li>
+                    </ul>
+                    <a href="#" class="more_get">更多参数 >></a>
+                </div>
+                <div class="si_list">
+                    <div><a href="#"><img src="images/shops1.jpg"></a></div>
+                    <div class="big_shops"><a href="#"><img src="images/shops.png"></a></div>
+                </div>
+
+            </div>
+            <!--商品详细参数-->
+            <div class="shop_spec">
+                <div class="shop_spec_title">
+                    <h3>商品评价</h3>
+                </div>
+                <div class="clearfix ss_cont">
+                    <div class="tr">主体</div>
+                    <div>
+                        <p><span>系列</span>Surface Laptop</p>
+                        <p><span>颜色</span>亮铂金</p>
+                        <p><span>平台</span>Intel</p>
+                    </div>
+                </div>
+                <div class="clearfix ss_cont">
+                    <div class="tr">处理器</div>
+                    <div>
+                        <p><span>CPU类型</span>第七代智能英特尔酷睿i5处理器</p>
+                        <p><span>CPU型号</span>i5-7200U</p>
+                        <p><span>CPU速度</span>2.50GHz睿频3.10GHz</p>
+                        <p><span>三级缓存</span>3M</p>
+                    </div>
+                </div>
+                <div class="clearfix ss_cont">
+                    <div class="tr">内存</div>
+                    <div>
+                        <p><span>内存容量</span>8GB</p>
+                    </div>
+                </div>
+                <div class="clearfix ss_cont">
+                    <div class="tr">硬盘</div>
+                    <div>
+                        <p><span>硬盘容量</span>其它</p>
+                        <p><span>固态硬盘</span>256GB SSD</p>
+                    </div>
+                </div>
+                <div class="clearfix ss_cont">
+                    <div class="tr">显卡</div>
+                    <div>
+                        <p><span>类型</span>集成显卡</p>
+                        <p><span>显示芯片</span>英特尔 HD 620</p>
+                    </div>
+                </div>
+                <div class="clearfix ss_cont">
+                    <div class="tr">显示器</div>
+                    <div>
+                        <p><span>屏幕规格</span>13.3英寸</p>
+                        <p><span>显示比例</span>3：2</p>
+                        <p><span>物理分辨率</span>2256 x 1504</p>
+                        <p><span>屏幕类型</span>PixelSense触摸显示屏</p>
+                    </div>
+                </div>
+                <div class="clearfix ss_cont">
+                    <div class="tr">通信</div>
+                    <div>
+                        <p><span>内置蓝牙</span>有</p>
+                        <p><span>局域网</span>不支持</p>
+                        <p><span>无线局域网</span>有</p>
+                    </div>
+                </div>
+                <div class="clearfix ss_cont">
+                    <div class="tr">端口</div>
+                    <div>
+                        <p><span>音频端口</span>其它</p>
+                        <p><span>音频端口</span>其它</p>
+                    </div>
+                </div>
+                <div class="clearfix ss_cont">
+                    <div class="tr">音效系统</div>
+                    <div>
+                        <p><span>扬声器</span>内置扬声器</p>
+                        <p><span>杜比音效</span>支持</p>
+                        <p><span>内置麦克风</span>有</p>
+                    </div>
+                </div>
+                <div class="clearfix ss_cont">
+                    <div class="tr">输入设备</div>
+                    <div>
+                        <p><span>键盘</span>巧克力键盘</p>
+                        <p><span>触摸板</span>有</p>
+                    </div>
+                </div>
+                <div class="clearfix ss_cont">
+                    <div class="tr">其它设备</div>
+                    <div>
+                        <p><span>网络摄像头</span>有</p>
+                        <p><span>摄像头像素</span>720p</p>
+                    </div>
+                </div>
+                <div class="clearfix ss_cont">
+                    <div class="tr">电源</div>
+                    <div>
+                        <p><span>电池</span>其它</p>
+                        <p><span>续航时间</span>>8小时</p>
+                        <p><span>电源适配器</span>>其它</p>
+                    </div>
+                </div>
+                <div class="clearfix ss_cont">
+                    <div class="tr">机器规格</div>
+                    <div>
+                        <p><span>尺寸</span>308.02 mm x 223.20 mm x 14.47 mm</p>
+                        <p><span>净重</span><1.5kg</p>
+                    </div>
+                </div>
+                <div class="clearfix ss_cont">
+                    <div class="tr">包装清单</div>
+                    <div>
+                        <p>Surface Laptop，电源，快速入门指南，安全和保修文件</p>
+                    </div>
+                </div>
+            </div>
+            <!--商品售后-->
+            <div class="shop_cs">
+                <div>
+                    <div class="shop_cs_pro">
+                        <h4>厂家服务</h4>
+                        <p>本产品全国联保，享受三包服务，质保期为：二年质保<br>
+                            如因质量问题或故障，凭厂商维修中心或特约维修点的质量检测证明，享受7日内退货，15日内换货，15日以上在质保期内享受免费保修等三包服务！<br>
+                            (注:如厂家在商品介绍中有售后保障的说明,则此商品按照厂家说明执行售后保障服务。)</p>
+                    </div>
+                    <div class="shop_cs_pro">
+                        <h4>京东承诺</h4>
+                        <p>京东平台卖家销售并发货的商品，由平台卖家提供发票和相应的售后服务。请您放心购买！<br>
+                            注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！</p>
+                    </div>
+                    <div class="shop_cs_pro">
+                        <h4>正品行货</h4>
+                        <p>京东商城向您保证所售商品均为正品行货，京东自营商品开具机打发票或电子票</p>
+                    </div>
+                    <div class="shop_cs_pro last">
+                        <h4>全国联保</h4>
+                        <p>凭借保证书及京东商城发票，可享受全国联保服务（奢侈品，钟表除外；奢侈品、钟表由京东联系保修，享受法定三包售后服务,），与您亲临商场选购的商品享受相同的质量保证。京东商城还为您提供具有竞争力的商品价格和<a href="#">运费政策</a>，请您放心购买！</p>
+                        <br>
+                            <p>注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！</p>
+                    </div>
+                    <div class="shop_cs_pro last1">
+                        <h4>无忧退换货</h4>
+                        <p>客户购买京东自营商品7日内（含7日，自客户收到商品之日起计算），在保证商品完好的前提下，可无理由退货。（部分商品除外，详情请见各商品细则）</p>
+                    </div>
+                </div>
+                <div class="ser_explain">
+                    <div class="ser_explain_list">
+                        <h4>权利声明:</h4>
+                        <p>京东上的所有商品信息、客户评价、商品咨询、网友讨论等内容，是京东重要的经营资源，未经许可，禁止非法转载使用。<br>
+                            <span>注：</span> 本站商品信息均来自于合作方，其真实性、准确性和合法性由信息拥有者（合作方）负责。本站不提供任何保证，并不承担任何法律责任。</p>
+                    </div>
+                    <div class="ser_explain_list">
+                        <h4>价格说明：</h4>
+                        <p><span>京东价：</span>京东价为商品的销售价，是您最终决定是否购买商品的依据。<br>
+                            <span>划线价</span>：商品展示的划横线价格为参考价，该价格可能是品牌专柜标价、商品吊牌价或由品牌供应商提供的正品零售价（如厂商指导价、建议零售价等）或该商品在京东平台上曾经展示过的销售价；由于地区、时间的差异性和市场行情波动，品牌专柜标价、商品吊牌价等可能会与您购物时展示的不一致，该价格仅供您参考。<br>
+                            <span>折扣：</span>如无特殊说明，折扣指销售商在原价、或划线价（如品牌专柜标价、商品吊牌价、厂商指导价、厂商建议零售价）等某一价格基础上计算出的优惠比例或优惠金额；如有疑问，您可在购买前联系销售商进行咨询。<br>
+                            <span>异常问题：</span>商品促销信息以商品详情页“促销”栏中的信息为准；商品的具体售价以订单结算页价格为准；如您发现活动商品售价或促销信息有异常，建议购买前先联系销售商咨询。</p>
+                    </div>
+                    <div class="ser_explain_list">
+                        <h4>能效标识说明：</h4>
+                        <p>根据国家相关能效标识法规和标准的要求，京东自营在售商品的能效标识图样，将会逐步替换为新版能源效率标识贴；受能效标识标准变化影响，部分产品的新版和旧版能效标识，在能效等级、测试值等方面会有差异，但产品实际性能完全一样，并不影响购买和使用，加贴新版或旧版能效标识的商品会随机发放，请您放心购买；如有疑问，请在购买前通过咚咚或来电咨询。</p>
+                    </div>
+                </div>
+            </div>
+            <!--商品评论-->
+            <div class="shop_comment">
+                <img src="images/comment.png">
+            </div>
+            <!--商品论坛-->
+            <div class="shop_discuss">
+                <img src="images/discuss.png">
+            </div>
+        </div>
+    </div>
+</div>
+<!--JD口号-->
+<div class="dkhs clearfix">
+    <ul class="inner">
+        <li class="dkhs1"></li>
+        <li class="dkhs2"></li>
+        <li class="dkhs3"></li>
+        <li class="dkhs4"></li>
+    </ul>
+</div>
+<!--footer-->
+<div class="footer inner clearfix">
+    <dl>
+        <dt>购物指南</dt>
+        <dd><a href="#">购物流程</a></dd>
+        <dd><a href="#">会员介绍</a></dd>
+        <dd><a href="#">生活旅行/团购</a></dd>
+        <dd><a href="#">常见问题</a></dd>
+        <dd><a href="#">大家电</a></dd>
+        <dd><a href="#">联系客服</a></dd>
+    </dl>
+    <dl>
+        <dt>配送方式</dt>
+        <dd><a href="#">上门自提</a></dd>
+        <dd><a href="#">211限时达</a></dd>
+        <dd><a href="#">配送服务查询</a></dd>
+        <dd><a href="#">配送费收取标准</a></dd>
+        <dd><a href="#">海外配送</a></dd>
+    </dl>
+    <dl>
+        <dt>支付方式</dt>
+        <dd><a href="#">货到付款</a></dd>
+        <dd><a href="#">在线支付</a></dd>
+        <dd><a href="#">分期付款</a></dd>
+        <dd><a href="#">邮局汇款</a></dd>
+        <dd><a href="#">公司转账</a></dd>
+    </dl>
+    <dl>
+        <dt>售后服务</dt>
+        <dd><a href="#">售后政策</a></dd>
+        <dd><a href="#">价格保护</a></dd>
+        <dd><a href="#">退款说明</a></dd>
+        <dd><a href="#">返修/退换货</a></dd>
+        <dd><a href="#">取消订单</a></dd>
+    </dl>
+    <dl class="last1">
+        <dt>特色服务</dt>
+        <dd><a href="#">夺宝岛</a></dd>
+        <dd><a href="#">DIY装机</a></dd>
+        <dd><a href="#">延保服务</a></dd>
+        <dd><a href="#">京东E卡</a></dd>
+        <dd><a href="#">京东通信</a></dd>
+        <dd><a href="#">京东JD+</a></dd>
+    </dl>
+    <dl class="last">
+        <dt>京东自营覆盖区县</dt>
+        <dd>
+            <p>京东已向全国2649个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。</p>
+            <a href="#">查看详情 <i>></i></a>
+        </dd>
+    </dl>
+</div>
+<div class="bot inner">
+    <ul class="clearfix">
+        <li><a href="">关于我们</a></li>
+        <li class="line"></li>
+        <li><a href="">联系我们</a></li>
+        <li class="line"></li>
+        <li><a href="">联系客服</a></li>
+        <li class="line"></li>
+        <li><a href="">商家入驻</a></li>
+        <li class="line"></li>
+        <li><a href="">营销中心</a></li>
+        <li class="line"></li>
+        <li><a href="">手机京东</a></li>
+        <li class="line"></li>
+        <li><a href="">友情链接</a></li>
+        <li class="line"></li>
+        <li><a href="">销售联盟</a></li>
+        <li class="line"></li>
+        <li><a href="">京东社区</a></li>
+        <li class="line"></li>
+        <li><a href="">风险监测</a></li>
+        <li class="line"></li>
+        <li><a href="">京东公益</a></li>
+        <li class="line"></li>
+        <li><a href="">English Site</a></li>
+        <li class="line"></li>
+        <li><a href="">Contact Us</a></li>
+    </ul>
+    <div class="copy">
+        <p class="police"><a href="#">京公网安备11000002000088号</a>  |  京ICP证070359号  |  <a href="#">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a>  |  新出发京零 字第大120007号</p>
+        <p>互联网出版许可证编号新出网证(京)字150号  |  <a href="#">出版物经营许可证</a>  |  <a href="#">网络文化经营许可证京网文[2014]2148-348号</a>  |  违法和不良信息举报电话：4006561155</p>
+        <p>Copyright &copy; 2004 - 2016  京东JD.com 版权所有  |  消费者维权热线：4006067733</p>
+        <p>京东旗下网站：<a href="#">京东钱包</a></p>
+    </div>
+    <div class="c_icon">
+        <a href="#"><img src="images/copy1.png" alt=""></a>
+        <a href="#"><img src="images/copy2.png" alt=""></a>
+        <a href="#"><img src="images/copy3.jpg" alt=""></a>
+        <a href="#"><img src="images/copy4.png" alt=""></a>
+        <a href="#"><img src="images/copy5.jpg" alt=""></a>
+        <a href="#"><img src="images/copy6.jpg" alt=""></a>
+    </div>
+</div>
+<!--右侧导航工具-->
+<div class="side_tool">
+    <ul class="s_t">
+        <li><a href="#"></a><span>京东会员</span></li>
+        <li><a href="#" class="st_2"></a><span>购物车</span></li>
+        <li><a href="#" class="st_3"></a><span>我的关注</span></li>
+        <li><a href="#" class="st_4"></a><span>我的足迹</span></li>
+        <li><a href="#" class="st_5"></a><span>我的消息</span></li>
+        <li><a href="#" class="st_6"></a><span>咨询JIMI</span></li>
+    </ul>
+</div>
+<!--右侧下方导航工具-->
+<div class="side_last">
+    <ul class="s_l">
+        <li><a href="#"></a><span>顶部</span></li>
+        <li><a href="#" class="sl_2"></a><span>反馈</span></li>
+    </ul>
+</div>
+</body>
+</html>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery_plugin.js"></script>
+<script src="js/index.js"></script>
+<script src="js/shopspage.js"></script>
